@@ -1,2 +1,4 @@
-# hitbox
-hitbox engine for html5 canvas
+# groupgame
+groupgame for gamedevelopment
+Authors:
+Matthias, Kellyn, Nathan
