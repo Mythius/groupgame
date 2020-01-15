@@ -1,2 +1,2 @@
-# groupgame
-groupgame for gamedevelopment
+# hitbox
+hitbox engine for html5 canvas

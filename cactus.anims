@@ -1,0 +1,1 @@
+{"dirname":"cactus","frames":[{"frames":[5,6,7,8],"name":"walk-back","fps":"10"},{"frames":[10,11,12,13,14],"name":"walk-left","fps":"10"},{"frames":[15,16,17,18],"name":"walk-right","fps":"10"},{"frames":[0,1,2,3,4,3,2,1],"name":"walk-forward","fps":"10"}],"count":19}
