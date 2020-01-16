@@ -8,6 +8,7 @@ function Animation(element,file){
 	var fps=30, frame_count = FILE.count;
 	var directory = FILE.dirname;
 	var n = (''+frame_count).length;
+	var loaded = false;
 	for(let i=0;i<frame_count;i++){
 		frames.push(directory+'/'+(('0'.repeat(n)+i).slice(-n))+'.png');
 	}
@@ -50,6 +51,7 @@ function Animation(element,file){
 			setTimeout(function(){
 				requestAnimationFrame(loop);
 			},1000/fps);
+			loaded = false;
 			img.src=frames[frLists[animID][curr_frame]];
 			curr_frame++;
 		}
